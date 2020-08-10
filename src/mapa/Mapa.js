@@ -202,7 +202,6 @@ export default class Mapa extends Component{
         this.setState({
           data2: data2
         });
-        console.log(data2);
 
       }, (error) => {
         console.error(error);
